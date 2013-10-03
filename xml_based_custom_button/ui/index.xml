@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<HBox w="800" h="600" childPadding="20">
+
+    <CustomButton
+        text = "'I am custom button!'"
+        w    = "200"
+        h    = "50"
+
+        skin:Paint-color        = "0x777777"
+        skinHovered:Paint-color = "0xAAAAAA"
+        skinPressed:Paint-color = "0x555555"
+    />
+</HBox>
