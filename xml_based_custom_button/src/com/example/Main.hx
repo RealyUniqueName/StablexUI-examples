@@ -23,7 +23,7 @@ class Main extends ru.stablex.ui.widgets.Widget{
         //Create our UI
         Lib.current.addChild( 
 		
-				UIBuilder.buildFn('ui/index.xml')() 
+				UIBuilder.buildFn('C:/Users/marcus/Documents/GitHub/__forks__/StablexUI-examples/xml_based_custom_button/src/ui/index.xml')() 
 				
 				//new Sprite()
 				);

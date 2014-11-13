@@ -12,7 +12,7 @@
 	<window width="800" height="600" unless="mobile" />
 	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
 	
-    <!-- call this function before compilling the app -->
+    <!-- call this function before compiling the app -->
     <haxeflag name="--macro" value="com.example.Init.init()"/>	
 		
 	<!-- classpath, haxe libs -->
