@@ -23,9 +23,9 @@ class Main extends ru.stablex.ui.widgets.Widget{
         //Create our UI
         Lib.current.addChild( 
 		
-				//UIBuilder.buildFn('ui/index.xml')() 
+				UIBuilder.buildFn('ui/index.xml')() 
 				
-				new Sprite()
+				//new Sprite()
 				);
     }//function main()
 
