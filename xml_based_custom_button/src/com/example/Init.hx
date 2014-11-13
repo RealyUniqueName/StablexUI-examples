@@ -12,7 +12,9 @@ class Init{
     * Function called with `--macro` compiler flag
     *
     */
-    macro static public function init () : Void{
+    macro static public function init () : Void {
+
+		trace("changed init() func got called...");		
 
         //register classes for usage in xml.
         UIBuilder.regClass("com.example.CustomButton");

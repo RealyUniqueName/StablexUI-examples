@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<HBox w="800" h="600" childPadding="20">
+<VBox w="800" h="600" childPadding="20">
 
 	<Text text="'hi maxx!!'" />
 	<Text text="'hi maxx!!'" />
 	<Text text="'hi maxx!!'" />
 	
-</HBox>
+</VBox>
+

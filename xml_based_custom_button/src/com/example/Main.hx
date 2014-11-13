@@ -1,8 +1,8 @@
 package com.example;
 
 import flash.Lib;
-import openfl.display.Sprite;
 import ru.stablex.ui.UIBuilder;
+//import openfl.display.Sprite;
 
 
 /**
