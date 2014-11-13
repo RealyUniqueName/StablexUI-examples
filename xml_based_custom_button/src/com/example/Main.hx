@@ -1,21 +1,33 @@
 package com.example;
 
+import flash.Lib;
 import openfl.display.Sprite;
-import openfl.Lib;
+import ru.stablex.ui.UIBuilder;
+
 
 /**
- * ...
  * @author pm
- */
+ * 
+* Custom button demo project for StablexUI
+*/
+class Main extends ru.stablex.ui.widgets.Widget{
 
-class Main extends Sprite 
-{
+    /**
+    * Enrty point
+    *
+    */
+    static public function main () : Void{
+        //initialize StablexUI
+        UIBuilder.init();
 
-	public function new() 
-	{
-		super();
+        //Create our UI
+        Lib.current.addChild( 
 		
-		// Assets:
-		// openfl.Assets.getBitmapData("img/assetname.jpg");
-	}
-}
+				//UIBuilder.buildFn('ui/index.xml')() 
+				
+				new Sprite()
+				);
+    }//function main()
+
+
+}//class Main
