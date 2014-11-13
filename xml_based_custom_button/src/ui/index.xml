@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VBox w="800" h="600" childPadding="20">
+	
+	<CustomButton 
+		text = "'I am custom button by Maxx!'"
+		w    = "200"
+		h    = "50"
+	
+        skin:Paint-color        = "0xD0DA14"
+        skinHovered:Paint-color = "0xA9B110"
+        skinPressed:Paint-color = "0xC87326"	
+	/>
+	
+	<Text text="'hi maxx!!'" />
+	<Text text="'hi maxx!!'" />
+	<Text text="'hi maxx!!'" />
+	
+</VBox>
+

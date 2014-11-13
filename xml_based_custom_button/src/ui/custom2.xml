@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Button>
+    <!-- Secondary components container -->
+    <Widget name="'secondary'" widthPt="100" heightPt="100">
+        <Text name="'sub1'" text="'Seems like it`s..'" left="0" bottom="0"/>
+        <Text name="'sub2'" text="'....cracking now!'" right="0" bottom="0"/>
+    </Widget>
+</Button>
