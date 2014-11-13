@@ -20,7 +20,11 @@ class Init{
         UIBuilder.regClass("com.example.CustomButton");
 
         //create xml-based class for custom button
-        UIBuilder.buildClass("ui/custom2.xml", "com.example.CustomButtonBase");
+        UIBuilder.buildClass(
+		
+		"C:/Users/marcus/Documents/GitHub/__forks__/StablexUI-examples/xml_based_custom_button/src/ui/custom2.xml", 
+		
+		"com.example.CustomButtonBase");
 
     }//function init()
 
